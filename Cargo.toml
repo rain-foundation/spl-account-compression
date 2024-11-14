@@ -33,7 +33,6 @@ anchor-lang = { git = "https://github.com/coral-xyz/anchor.git" }
 solana-program = "=2"
 bytemuck = "^1"
 spl-concurrent-merkle-tree = { version = "0.2.0" }
-spl-noop = { version = "0.2.0", features = ["no-entrypoint"] }
 
 [features]
 cpi = ["no-entrypoint"]
