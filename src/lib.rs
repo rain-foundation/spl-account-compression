@@ -58,7 +58,6 @@ declare_id!("cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK");
 /// Context for initializing a new SPL ConcurrentMerkleTree
 #[derive(Accounts)]
 pub struct Initialize<'info> {
-    #[account(zero)]
     /// CHECK: This account will be zeroed out, and the size will be validated
     pub merkle_tree: UncheckedAccount<'info>,
 
