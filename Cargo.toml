@@ -29,7 +29,7 @@ crate-type = [
 ]
 
 [dependencies]
-anchor-lang = { git = "https://github.com/coral-xyz/anchor.git" }
+anchor-lang = { git = "https://github.com/coral-xyz/anchor.git", branch = "master" }
 solana-program = "^2"
 bytemuck = "^1"
 spl-concurrent-merkle-tree = { version = "0.2.0" }
